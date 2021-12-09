@@ -1,0 +1,29 @@
+{
+    "name": "ikm/categoriesmedia",
+    "description": "categoriesmedia",
+    "type": "oxideshop-module",
+    "keywords": ["oxid", "modules", "catrgories media", "media"],
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Ilyaz Khan Mohammed",
+            "email": "ilyaskhan900@gmail.com"
+        }
+    ],
+    "extra": {
+        "oxideshop": {
+            "target-directory": "ikm/categoriesmedia"
+        }
+    },
+    "license": [
+        "GPL-3.0-only"
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ikm\\CategoriesMedia\\": "../../../source/modules/ikm/categoriesmedia"
+        }
+    }
+}
